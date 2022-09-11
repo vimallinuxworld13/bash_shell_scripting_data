@@ -1,0 +1,15 @@
+# shopt  | column
+
+# shopt -s histverify
+shopt histverify
+
+# !100
+
+# shopt  -s cdspell
+# cd /ETc
+
+
+wc -l file1.txt|tee -a file2.txt
+
+x=1; while  [ $x -le 5 ]; do echo "Welcome $x times" $(( x++ )); done
+
